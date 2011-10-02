@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F9EEB1D0FB3675D0060BA79 /* 61-brightness.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F9EEB1C0FB3675D0060BA79 /* 61-brightness.png */; };
+		0F9EEB1F0FB367910060BA79 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F9EEB1E0FB367910060BA79 /* 19-gear.png */; };
+		0F9EEB210FB367A20060BA79 /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F9EEB200FB367A20060BA79 /* 10-medical.png */; };
+		0F9EEB230FB367D20060BA79 /* 59-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F9EEB220FB367D20060BA79 /* 59-flag.png */; };
+		0F9EEB250FB367ED0060BA79 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F9EEB240FB367ED0060BA79 /* 28-star.png */; };
+		1D3623260D0F684500981E51 /* MCommAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MCommAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		282CCBFE0DB6C98000C4EA27 /* MyTasksView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* MyTasksView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		970656D40F96B65600222B66 /* AsynchronousWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 970656D30F96B65600222B66 /* AsynchronousWebService.m */; };
+		971D6A860F9A8BEC005E8973 /* TaskDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971D6A850F9A8BEC005E8973 /* TaskDetailsCell.xib */; };
+		971D6A910F9A8C8A005E8973 /* TaskDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 971D6A900F9A8C8A005E8973 /* TaskDetailsCell.m */; };
+		97613C500F608422001EA3BD /* CachedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 97613C4F0F608422001EA3BD /* CachedData.m */; };
+		976C7CAD0F44FF2B00E64DB6 /* SiteUserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 976C7CAC0F44FF2B00E64DB6 /* SiteUserDelegate.m */; };
+		978347E10F40F54D000369F2 /* PatientListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 978347E00F40F54D000369F2 /* PatientListView.xib */; };
+		978572290F4A7C5700A001D3 /* PatientListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 978572280F4A7C5700A001D3 /* PatientListTableViewController.m */; };
+		97AF142A0F325BFF0045D1CA /* AlertsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AF14290F325BFF0045D1CA /* AlertsView.xib */; };
+		97AF14320F325D200045D1CA /* MyTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AF14310F325D200045D1CA /* MyTasksViewController.m */; };
+		97AF14380F325D5B0045D1CA /* AlertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AF14370F325D5B0045D1CA /* AlertsViewController.m */; };
+		97AF148F0F326A700045D1CA /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AF148E0F326A700045D1CA /* Patient.m */; };
+		97AF14950F326B660045D1CA /* SiteUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AF14940F326B660045D1CA /* SiteUser.m */; };
+		97AF149B0F326C090045D1CA /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AF149A0F326C090045D1CA /* Task.m */; };
+		97AF14A10F326C6F0045D1CA /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AF14A00F326C6F0045D1CA /* Response.m */; };
+		97AF14A70F326DC60045D1CA /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AF14A60F326DC60045D1CA /* WebService.m */; };
+		97BE3A770F602C3E002590C9 /* TaskDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BE3A760F602C3E002590C9 /* TaskDetailsView.xib */; };
+		97BE3A7A0F602C57002590C9 /* TaskDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BE3A790F602C57002590C9 /* TaskDetailsViewController.m */; };
+		97BEB5750F82951600B55064 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BEB5740F82951600B55064 /* AudioToolbox.framework */; };
+		97BF03430F75680700580DA6 /* AddTaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BF03420F75680700580DA6 /* AddTaskView.xib */; };
+		97BF03490F75687600580DA6 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BF03480F75687600580DA6 /* AddTaskViewController.m */; };
+		97C165640F77EB1A00718F90 /* PatientListTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C165630F77EB1A00718F90 /* PatientListTableCell.m */; };
+		97C165690F77EBB700718F90 /* PatientListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C165680F77EBB700718F90 /* PatientListCell.xib */; };
+		97C45C770F431C7E002535EB /* SingleResultDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C45C760F431C7E002535EB /* SingleResultDelegate.m */; };
+		97CA31F30F61F8670033DD38 /* ResponseDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CA31F20F61F8670033DD38 /* ResponseDelegate.m */; };
+		97D2E0510F98EFA9002BC59B /* AlertsTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D2E0500F98EFA9002BC59B /* AlertsTimer.m */; };
+		97DA9AA20F603BD400215578 /* TaskListDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DA9AA10F603BD400215578 /* TaskListDelegate.m */; };
+		97DB14960F5C7974006D887A /* PatientDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97DB14950F5C7974006D887A /* PatientDetailsView.xib */; };
+		97DB14990F5C798A006D887A /* PatientDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB14980F5C798A006D887A /* PatientDetailsViewController.m */; };
+		97DFFD7B0F8423C700D35EFA /* banner.gif in Resources */ = {isa = PBXBuildFile; fileRef = 97DFFD790F8423C700D35EFA /* banner.gif */; };
+		97DFFD890F8424D500D35EFA /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 97DFFD880F8424D500D35EFA /* logo.gif */; };
+		97DFFD900F84297A00D35EFA /* high.wav in Resources */ = {isa = PBXBuildFile; fileRef = 97DFFD8E0F84297A00D35EFA /* high.wav */; };
+		97DFFD910F84297A00D35EFA /* low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 97DFFD8F0F84297A00D35EFA /* low.wav */; };
+		97E236070F97F1F80075AD94 /* AlertsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E236060F97F1F80075AD94 /* AlertsData.m */; };
+		97E2360A0F97F22B0075AD94 /* TaskListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E236090F97F22B0075AD94 /* TaskListData.m */; };
+		97FF63690F49D52100D4F28C /* PatientListDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF63680F49D52100D4F28C /* PatientListDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F9EEB1C0FB3675D0060BA79 /* 61-brightness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "61-brightness.png"; sourceTree = "<group>"; };
+		0F9EEB1E0FB367910060BA79 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		0F9EEB200FB367A20060BA79 /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
+		0F9EEB220FB367D20060BA79 /* 59-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-flag.png"; sourceTree = "<group>"; };
+		0F9EEB240FB367ED0060BA79 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MCommAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCommAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MCommAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCommAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MComm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MComm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282CCBFD0DB6C98000C4EA27 /* MyTasksView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTasksView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* MComm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MComm_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970656D20F96B65600222B66 /* AsynchronousWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousWebService.h; sourceTree = "<group>"; };
+		970656D30F96B65600222B66 /* AsynchronousWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousWebService.m; sourceTree = "<group>"; };
+		971D6A850F9A8BEC005E8973 /* TaskDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskDetailsCell.xib; sourceTree = "<group>"; };
+		971D6A8F0F9A8C8A005E8973 /* TaskDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailsCell.h; sourceTree = "<group>"; };
+		971D6A900F9A8C8A005E8973 /* TaskDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailsCell.m; sourceTree = "<group>"; };
+		97613C4E0F608422001EA3BD /* CachedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedData.h; sourceTree = "<group>"; };
+		97613C4F0F608422001EA3BD /* CachedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedData.m; sourceTree = "<group>"; };
+		976C7CAB0F44FF2B00E64DB6 /* SiteUserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteUserDelegate.h; path = Classes/SiteUserDelegate.h; sourceTree = "<group>"; };
+		976C7CAC0F44FF2B00E64DB6 /* SiteUserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteUserDelegate.m; path = Classes/SiteUserDelegate.m; sourceTree = "<group>"; };
+		978347E00F40F54D000369F2 /* PatientListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientListView.xib; sourceTree = "<group>"; };
+		978572270F4A7C5700A001D3 /* PatientListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatientListTableViewController.h; path = Classes/PatientListTableViewController.h; sourceTree = "<group>"; };
+		978572280F4A7C5700A001D3 /* PatientListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatientListTableViewController.m; path = Classes/PatientListTableViewController.m; sourceTree = "<group>"; };
+		97AF14290F325BFF0045D1CA /* AlertsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertsView.xib; sourceTree = "<group>"; };
+		97AF14300F325D200045D1CA /* MyTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTasksViewController.h; path = Classes/MyTasksViewController.h; sourceTree = "<group>"; };
+		97AF14310F325D200045D1CA /* MyTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTasksViewController.m; path = Classes/MyTasksViewController.m; sourceTree = "<group>"; };
+		97AF14360F325D5B0045D1CA /* AlertsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertsViewController.h; path = Classes/AlertsViewController.h; sourceTree = "<group>"; };
+		97AF14370F325D5B0045D1CA /* AlertsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertsViewController.m; path = Classes/AlertsViewController.m; sourceTree = "<group>"; };
+		97AF148D0F326A700045D1CA /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		97AF148E0F326A700045D1CA /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		97AF14930F326B660045D1CA /* SiteUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteUser.h; sourceTree = "<group>"; };
+		97AF14940F326B660045D1CA /* SiteUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteUser.m; sourceTree = "<group>"; };
+		97AF14990F326C090045D1CA /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		97AF149A0F326C090045D1CA /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		97AF149F0F326C6F0045D1CA /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		97AF14A00F326C6F0045D1CA /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		97AF14A50F326DC60045D1CA /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		97AF14A60F326DC60045D1CA /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		97BE3A760F602C3E002590C9 /* TaskDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskDetailsView.xib; sourceTree = "<group>"; };
+		97BE3A780F602C57002590C9 /* TaskDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailsViewController.h; sourceTree = "<group>"; };
+		97BE3A790F602C57002590C9 /* TaskDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailsViewController.m; sourceTree = "<group>"; };
+		97BEB5740F82951600B55064 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		97BF03420F75680700580DA6 /* AddTaskView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTaskView.xib; sourceTree = "<group>"; };
+		97BF03470F75687600580DA6 /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		97BF03480F75687600580DA6 /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		97C165620F77EB1A00718F90 /* PatientListTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientListTableCell.h; sourceTree = "<group>"; };
+		97C165630F77EB1A00718F90 /* PatientListTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientListTableCell.m; sourceTree = "<group>"; };
+		97C165680F77EBB700718F90 /* PatientListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientListCell.xib; sourceTree = "<group>"; };
+		97C45C750F431C7E002535EB /* SingleResultDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleResultDelegate.h; path = Classes/SingleResultDelegate.h; sourceTree = "<group>"; };
+		97C45C760F431C7E002535EB /* SingleResultDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleResultDelegate.m; path = Classes/SingleResultDelegate.m; sourceTree = "<group>"; };
+		97CA31F10F61F8670033DD38 /* ResponseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseDelegate.h; sourceTree = "<group>"; };
+		97CA31F20F61F8670033DD38 /* ResponseDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseDelegate.m; sourceTree = "<group>"; };
+		97D2E04F0F98EFA9002BC59B /* AlertsTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsTimer.h; sourceTree = "<group>"; };
+		97D2E0500F98EFA9002BC59B /* AlertsTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsTimer.m; sourceTree = "<group>"; };
+		97DA9AA00F603BD400215578 /* TaskListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListDelegate.h; sourceTree = "<group>"; };
+		97DA9AA10F603BD400215578 /* TaskListDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListDelegate.m; sourceTree = "<group>"; };
+		97DB14950F5C7974006D887A /* PatientDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientDetailsView.xib; sourceTree = "<group>"; };
+		97DB14970F5C798A006D887A /* PatientDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatientDetailsViewController.h; path = Classes/PatientDetailsViewController.h; sourceTree = "<group>"; };
+		97DB14980F5C798A006D887A /* PatientDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatientDetailsViewController.m; path = Classes/PatientDetailsViewController.m; sourceTree = "<group>"; };
+		97DFFD790F8423C700D35EFA /* banner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = banner.gif; sourceTree = "<group>"; };
+		97DFFD880F8424D500D35EFA /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
+		97DFFD8E0F84297A00D35EFA /* high.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = high.wav; sourceTree = "<group>"; };
+		97DFFD8F0F84297A00D35EFA /* low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = low.wav; sourceTree = "<group>"; };
+		97E236050F97F1F80075AD94 /* AlertsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsData.h; sourceTree = "<group>"; };
+		97E236060F97F1F80075AD94 /* AlertsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsData.m; sourceTree = "<group>"; };
+		97E236080F97F22B0075AD94 /* TaskListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListData.h; sourceTree = "<group>"; };
+		97E236090F97F22B0075AD94 /* TaskListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListData.m; sourceTree = "<group>"; };
+		97FF63670F49D52100D4F28C /* PatientListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatientListDelegate.h; path = Classes/PatientListDelegate.h; sourceTree = "<group>"; };
+		97FF63680F49D52100D4F28C /* PatientListDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatientListDelegate.m; path = Classes/PatientListDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				97BEB5750F82951600B55064 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97E236050F97F1F80075AD94 /* AlertsData.h */,
+				97E236060F97F1F80075AD94 /* AlertsData.m */,
+				97D2E04F0F98EFA9002BC59B /* AlertsTimer.h */,
+				97D2E0500F98EFA9002BC59B /* AlertsTimer.m */,
+				970656D20F96B65600222B66 /* AsynchronousWebService.h */,
+				970656D30F96B65600222B66 /* AsynchronousWebService.m */,
+				97613C4E0F608422001EA3BD /* CachedData.h */,
+				97613C4F0F608422001EA3BD /* CachedData.m */,
+				1D3623240D0F684500981E51 /* MCommAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MCommAppDelegate.m */,
+				97AF148D0F326A700045D1CA /* Patient.h */,
+				97AF148E0F326A700045D1CA /* Patient.m */,
+				97AF149F0F326C6F0045D1CA /* Response.h */,
+				97AF14A00F326C6F0045D1CA /* Response.m */,
+				97AF14930F326B660045D1CA /* SiteUser.h */,
+				97AF14940F326B660045D1CA /* SiteUser.m */,
+				97AF14990F326C090045D1CA /* Task.h */,
+				97AF149A0F326C090045D1CA /* Task.m */,
+				97E236080F97F22B0075AD94 /* TaskListData.h */,
+				97E236090F97F22B0075AD94 /* TaskListData.m */,
+				97AF14A50F326DC60045D1CA /* WebService.h */,
+				97AF14A60F326DC60045D1CA /* WebService.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MComm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MComm */ = {
+			isa = PBXGroup;
+			children = (
+				97C165610F77EAFA00718F90 /* Custom Table Cells */,
+				97DB15580F5C8931006D887A /* XML Delegates */,
+				97DB15570F5C890A006D887A /* View Controllers */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MComm;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* MComm_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F9EEB240FB367ED0060BA79 /* 28-star.png */,
+				0F9EEB220FB367D20060BA79 /* 59-flag.png */,
+				0F9EEB200FB367A20060BA79 /* 10-medical.png */,
+				0F9EEB1E0FB367910060BA79 /* 19-gear.png */,
+				0F9EEB1C0FB3675D0060BA79 /* 61-brightness.png */,
+				97DFFD8E0F84297A00D35EFA /* high.wav */,
+				97DFFD8F0F84297A00D35EFA /* low.wav */,
+				97DFFD880F8424D500D35EFA /* logo.gif */,
+				97DFFD790F8423C700D35EFA /* banner.gif */,
+				97BF03420F75680700580DA6 /* AddTaskView.xib */,
+				97AF14290F325BFF0045D1CA /* AlertsView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				282CCBFD0DB6C98000C4EA27 /* MyTasksView.xib */,
+				97DB14950F5C7974006D887A /* PatientDetailsView.xib */,
+				97C165680F77EBB700718F90 /* PatientListCell.xib */,
+				978347E00F40F54D000369F2 /* PatientListView.xib */,
+				971D6A850F9A8BEC005E8973 /* TaskDetailsCell.xib */,
+				97BE3A760F602C3E002590C9 /* TaskDetailsView.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97BEB5740F82951600B55064 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97C165610F77EAFA00718F90 /* Custom Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				97C165620F77EB1A00718F90 /* PatientListTableCell.h */,
+				97C165630F77EB1A00718F90 /* PatientListTableCell.m */,
+				971D6A8F0F9A8C8A005E8973 /* TaskDetailsCell.h */,
+				971D6A900F9A8C8A005E8973 /* TaskDetailsCell.m */,
+			);
+			name = "Custom Table Cells";
+			sourceTree = "<group>";
+		};
+		97DB15570F5C890A006D887A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				97BF03470F75687600580DA6 /* AddTaskViewController.h */,
+				97BF03480F75687600580DA6 /* AddTaskViewController.m */,
+				97AF14360F325D5B0045D1CA /* AlertsViewController.h */,
+				97AF14370F325D5B0045D1CA /* AlertsViewController.m */,
+				97AF14300F325D200045D1CA /* MyTasksViewController.h */,
+				97AF14310F325D200045D1CA /* MyTasksViewController.m */,
+				97DB14970F5C798A006D887A /* PatientDetailsViewController.h */,
+				97DB14980F5C798A006D887A /* PatientDetailsViewController.m */,
+				978572270F4A7C5700A001D3 /* PatientListTableViewController.h */,
+				978572280F4A7C5700A001D3 /* PatientListTableViewController.m */,
+				97BE3A780F602C57002590C9 /* TaskDetailsViewController.h */,
+				97BE3A790F602C57002590C9 /* TaskDetailsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		97DB15580F5C8931006D887A /* XML Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				97FF63670F49D52100D4F28C /* PatientListDelegate.h */,
+				97FF63680F49D52100D4F28C /* PatientListDelegate.m */,
+				97CA31F10F61F8670033DD38 /* ResponseDelegate.h */,
+				97CA31F20F61F8670033DD38 /* ResponseDelegate.m */,
+				97C45C750F431C7E002535EB /* SingleResultDelegate.h */,
+				97C45C760F431C7E002535EB /* SingleResultDelegate.m */,
+				976C7CAB0F44FF2B00E64DB6 /* SiteUserDelegate.h */,
+				976C7CAC0F44FF2B00E64DB6 /* SiteUserDelegate.m */,
+				97DA9AA00F603BD400215578 /* TaskListDelegate.h */,
+				97DA9AA10F603BD400215578 /* TaskListDelegate.m */,
+			);
+			name = "XML Delegates";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MComm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MComm" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MComm;
+			productName = MComm;
+			productReference = 1D6058910D05DD3D006BFB54 /* MComm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MComm" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MComm */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MComm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* MyTasksView.xib in Resources */,
+				97AF142A0F325BFF0045D1CA /* AlertsView.xib in Resources */,
+				978347E10F40F54D000369F2 /* PatientListView.xib in Resources */,
+				97DB14960F5C7974006D887A /* PatientDetailsView.xib in Resources */,
+				97BE3A770F602C3E002590C9 /* TaskDetailsView.xib in Resources */,
+				97BF03430F75680700580DA6 /* AddTaskView.xib in Resources */,
+				97C165690F77EBB700718F90 /* PatientListCell.xib in Resources */,
+				97DFFD7B0F8423C700D35EFA /* banner.gif in Resources */,
+				97DFFD890F8424D500D35EFA /* logo.gif in Resources */,
+				97DFFD900F84297A00D35EFA /* high.wav in Resources */,
+				97DFFD910F84297A00D35EFA /* low.wav in Resources */,
+				971D6A860F9A8BEC005E8973 /* TaskDetailsCell.xib in Resources */,
+				0F9EEB1D0FB3675D0060BA79 /* 61-brightness.png in Resources */,
+				0F9EEB1F0FB367910060BA79 /* 19-gear.png in Resources */,
+				0F9EEB210FB367A20060BA79 /* 10-medical.png in Resources */,
+				0F9EEB230FB367D20060BA79 /* 59-flag.png in Resources */,
+				0F9EEB250FB367ED0060BA79 /* 28-star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MCommAppDelegate.m in Sources */,
+				97AF14320F325D200045D1CA /* MyTasksViewController.m in Sources */,
+				97AF14380F325D5B0045D1CA /* AlertsViewController.m in Sources */,
+				97AF148F0F326A700045D1CA /* Patient.m in Sources */,
+				97AF14950F326B660045D1CA /* SiteUser.m in Sources */,
+				97AF149B0F326C090045D1CA /* Task.m in Sources */,
+				97AF14A10F326C6F0045D1CA /* Response.m in Sources */,
+				97AF14A70F326DC60045D1CA /* WebService.m in Sources */,
+				97C45C770F431C7E002535EB /* SingleResultDelegate.m in Sources */,
+				976C7CAD0F44FF2B00E64DB6 /* SiteUserDelegate.m in Sources */,
+				97FF63690F49D52100D4F28C /* PatientListDelegate.m in Sources */,
+				978572290F4A7C5700A001D3 /* PatientListTableViewController.m in Sources */,
+				97DB14990F5C798A006D887A /* PatientDetailsViewController.m in Sources */,
+				97BE3A7A0F602C57002590C9 /* TaskDetailsViewController.m in Sources */,
+				97DA9AA20F603BD400215578 /* TaskListDelegate.m in Sources */,
+				97613C500F608422001EA3BD /* CachedData.m in Sources */,
+				97CA31F30F61F8670033DD38 /* ResponseDelegate.m in Sources */,
+				97BF03490F75687600580DA6 /* AddTaskViewController.m in Sources */,
+				97C165640F77EB1A00718F90 /* PatientListTableCell.m in Sources */,
+				970656D40F96B65600222B66 /* AsynchronousWebService.m in Sources */,
+				97E236070F97F1F80075AD94 /* AlertsData.m in Sources */,
+				97E2360A0F97F22B0075AD94 /* TaskListData.m in Sources */,
+				97D2E0510F98EFA9002BC59B /* AlertsTimer.m in Sources */,
+				971D6A910F9A8C8A005E8973 /* TaskDetailsCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prasanth Gogineni";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MComm_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = MComm;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F410D479-C374-47B9-9634-E390C640DCD8";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MComm_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = MComm;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prasanth Gogineni";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "810EC4EC-B1E7-4F39-9E99-BB3945E8A865";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MComm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MComm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

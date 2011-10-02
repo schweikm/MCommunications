@@ -1,0 +1,1304 @@
+TMComm
+v7
+r0
+t290826669.221120
+cCheck dependencies
+cProcessInfoPlistFile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/Info.plist Info.plist
+cCompileXIB /Users/schweik/Documents/Projects/MComm/MainWindow.xib
+cCompileXIB /Users/schweik/Documents/Projects/MComm/MyTasksView.xib
+cCompileXIB /Users/schweik/Documents/Projects/MComm/AlertsView.xib
+cCompileXIB /Users/schweik/Documents/Projects/MComm/PatientListView.xib
+cCompileXIB /Users/schweik/Documents/Projects/MComm/PatientDetailsView.xib
+cCompileXIB /Users/schweik/Documents/Projects/MComm/TaskDetailsView.xib
+cCompileXIB /Users/schweik/Documents/Projects/MComm/AddTaskView.xib
+cCompileXIB /Users/schweik/Documents/Projects/MComm/PatientListCell.xib
+cCpResource build/Release-iphonesimulator/MComm.app/banner.gif banner.gif
+cCpResource build/Release-iphonesimulator/MComm.app/logo.gif logo.gif
+cCpResource build/Release-iphonesimulator/MComm.app/high.wav high.wav
+cCpResource build/Release-iphonesimulator/MComm.app/low.wav low.wav
+cCompileXIB /Users/schweik/Documents/Projects/MComm/TaskDetailsCell.xib
+cCpResource build/Release-iphonesimulator/MComm.app/61-brightness.png 61-brightness.png
+cCpResource build/Release-iphonesimulator/MComm.app/19-gear.png 19-gear.png
+cCpResource build/Release-iphonesimulator/MComm.app/10-medical.png 10-medical.png
+cCpResource build/Release-iphonesimulator/MComm.app/59-flag.png 59-flag.png
+cCpResource build/Release-iphonesimulator/MComm.app/28-star.png 28-star.png
+cProcessPCH /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch.gch MComm_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/main.o /Users/schweik/Documents/Projects/MComm/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MCommAppDelegate.o /Users/schweik/Documents/Projects/MComm/Classes/MCommAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MyTasksViewController.o /Users/schweik/Documents/Projects/MComm/Classes/MyTasksViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsViewController.o /Users/schweik/Documents/Projects/MComm/Classes/AlertsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Patient.o /Users/schweik/Documents/Projects/MComm/Classes/Patient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUser.o /Users/schweik/Documents/Projects/MComm/Classes/SiteUser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Task.o /Users/schweik/Documents/Projects/MComm/Classes/Task.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Response.o /Users/schweik/Documents/Projects/MComm/Classes/Response.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/WebService.o /Users/schweik/Documents/Projects/MComm/Classes/WebService.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SingleResultDelegate.o /Users/schweik/Documents/Projects/MComm/Classes/SingleResultDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUserDelegate.o /Users/schweik/Documents/Projects/MComm/Classes/SiteUserDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListDelegate.o /Users/schweik/Documents/Projects/MComm/Classes/PatientListDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableViewController.o /Users/schweik/Documents/Projects/MComm/Classes/PatientListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientDetailsViewController.o /Users/schweik/Documents/Projects/MComm/Classes/PatientDetailsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsViewController.o /Users/schweik/Documents/Projects/MComm/TaskDetailsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListDelegate.o /Users/schweik/Documents/Projects/MComm/TaskListDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/CachedData.o /Users/schweik/Documents/Projects/MComm/Classes/CachedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/ResponseDelegate.o /Users/schweik/Documents/Projects/MComm/ResponseDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AddTaskViewController.o /Users/schweik/Documents/Projects/MComm/AddTaskViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableCell.o /Users/schweik/Documents/Projects/MComm/PatientListTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AsynchronousWebService.o /Users/schweik/Documents/Projects/MComm/Classes/AsynchronousWebService.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsData.o /Users/schweik/Documents/Projects/MComm/Classes/AlertsData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListData.o /Users/schweik/Documents/Projects/MComm/Classes/TaskListData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsTimer.o /Users/schweik/Documents/Projects/MComm/Classes/AlertsTimer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsCell.o /Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm normal i386
+cGenerateDSYMFile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app.dSYM /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm
+cTouch /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004BA559AD00000000000000EE
+t1269127597
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004B2B4D2F0000000000000A22
+t1261129007
+s2594
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004B26F1FA00000000004C78A0
+t1260843514
+s5011616
+
+N/Users/schweik/Documents/Projects/MComm/10-medical.png
+c000000004A314B1C00000000000000D2
+t1244744476
+s210
+
+N/Users/schweik/Documents/Projects/MComm/19-gear.png
+c000000004A314B1C000000000000019D
+t1244744476
+s413
+
+N/Users/schweik/Documents/Projects/MComm/28-star.png
+c000000004A314B1C0000000000000177
+t1244744476
+s375
+
+N/Users/schweik/Documents/Projects/MComm/59-flag.png
+c000000004A314B1C00000000000000F7
+t1244744476
+s247
+
+N/Users/schweik/Documents/Projects/MComm/61-brightness.png
+c000000004A314B1C00000000000000F4
+t1244744476
+s244
+
+N/Users/schweik/Documents/Projects/MComm/AddTaskView.xib
+c0000000049FA01150000000000003F52
+t1241121045
+s16210
+
+N/Users/schweik/Documents/Projects/MComm/AddTaskViewController.h
+c0000000049FA006E00000000000003B0
+t1241120878
+s944
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/AddTaskViewController.m
+c000000004A1886010000000000000EF1
+t1243121153
+s3825
+i"AddTaskViewController.h"
+i"CachedData.h"
+i"Patient.h"
+i"Response.h"
+i"SiteUser.h"
+i"Task.h"
+i"WebService.h"
+
+N/Users/schweik/Documents/Projects/MComm/AlertsView.xib
+c0000000049F36F770000000000001A84
+t1240690551
+s6788
+
+N/Users/schweik/Documents/Projects/MComm/Classes/AlertsData.h
+c0000000049F9E2BD000000000000024A
+t1241113277
+s586
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/AlertsData.m
+c0000000049F9E2D4000000000000012A
+t1241113300
+s298
+i"AlertsData.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/AlertsTimer.h
+c0000000049F9E33A0000000000000381
+t1241113402
+s897
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/AlertsTimer.m
+c000000004A09DDF40000000000000C34
+t1242160628
+s3124
+i"AlertsTimer.h"
+i"AlertsData.h"
+i"AlertsViewController.h"
+i"AsynchronousWebService.h"
+i"CachedData.h"
+i"SiteUser.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/AlertsViewController.h
+c0000000049F9DC58000000000000019A
+t1241111640
+s410
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/AlertsViewController.m
+c000000004A188BB50000000000000E67
+t1243122613
+s3687
+i"AlertsViewController.h"
+i"CachedData.h"
+i"Patient.h"
+i"Response.h"
+i"SiteUser.h"
+i"Task.h"
+i"TaskDetailsCell.h"
+i"TaskDetailsViewController.h"
+i"TaskListData.h"
+i"WebService.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/AsynchronousWebService.h
+c0000000049F9E51D0000000000000451
+t1241113885
+s1105
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/AsynchronousWebService.m
+c000000004BA57216000000000000172F
+t1269133846
+s5935
+i"AsynchronousWebService.h"
+i"AlertsData.h"
+i"SiteUser.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/CachedData.h
+c0000000049F9EBFA0000000000000278
+t1241115642
+s632
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/CachedData.m
+c0000000049F9EC060000000000000216
+t1241115654
+s534
+i"CachedData.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/MCommAppDelegate.h
+c0000000049F9EC4A00000000000004D1
+t1241115722
+s1233
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/MCommAppDelegate.m
+c000000004A75FB91000000000000115B
+t1249246097
+s4443
+i"MCommAppDelegate.h"
+i"AlertsTimer.h"
+i"CachedData.h"
+i"SiteUser.h"
+i"WebService.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/MyTasksViewController.h
+c0000000049F9DD12000000000000016B
+t1241111826
+s363
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/MyTasksViewController.m
+c000000004A188BAE0000000000000E68
+t1243122606
+s3688
+i"MyTasksViewController.h"
+i"CachedData.h"
+i"Patient.h"
+i"Response.h"
+i"SiteUser.h"
+i"Task.h"
+i"TaskDetailsCell.h"
+i"TaskDetailsViewController.h"
+i"TaskListData.h"
+i"WebService.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/Patient.h
+c0000000049F9ED4800000000000004A9
+t1241115976
+s1193
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/Patient.m
+c0000000049F9EDB5000000000000027C
+t1241116085
+s636
+i"Patient.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/PatientDetailsViewController.h
+c0000000049F9DDD6000000000000030F
+t1241112022
+s783
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/PatientDetailsViewController.m
+c000000004A75F498000000000000135D
+t1249244312
+s4957
+i"PatientDetailsViewController.h"
+i"AddTaskViewController.h"
+i"CachedData.h"
+i"Patient.h"
+i"SiteUser.h"
+i"Task.h"
+i"TaskDetailsViewController.h"
+i"TaskListData.h"
+i"WebService.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/PatientListDelegate.h
+c0000000049F9D39500000000000001F2
+t1241109397
+s498
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/PatientListDelegate.m
+c0000000049F9D7D40000000000000B3B
+t1241110484
+s2875
+i"PatientListDelegate.h"
+i"Patient.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/PatientListTableViewController.h
+c0000000049F9DE9F00000000000001CC
+t1241112223
+s460
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/PatientListTableViewController.m
+c000000004A75FB590000000000000E67
+t1249246041
+s3687
+i"PatientListTableViewController.h"
+i"CachedData.h"
+i"Patient.h"
+i"PatientDetailsViewController.h"
+i"PatientListTableCell.h"
+i"SiteUser.h"
+i"WebService.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/Response.h
+c0000000049F9EDD40000000000000324
+t1241116116
+s804
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/Response.m
+c0000000049F9EE2000000000000002B1
+t1241116192
+s689
+i"Response.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/SingleResultDelegate.h
+c0000000049F9D4E500000000000002F9
+t1241109733
+s761
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/SingleResultDelegate.m
+c0000000049F9D57200000000000003D0
+t1241109874
+s976
+i"SingleResultDelegate.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/SiteUser.h
+c0000000049F9EEF80000000000000316
+t1241116408
+s790
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/SiteUser.m
+c0000000049F9EF330000000000000306
+t1241116467
+s774
+i"SiteUser.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/SiteUserDelegate.h
+c0000000049F9D8E500000000000002A3
+t1241110757
+s675
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/SiteUserDelegate.m
+c0000000049F9D94400000000000007F8
+t1241110852
+s2040
+i"SiteUserDelegate.h"
+i"SiteUser.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/Task.h
+c0000000049F9EF4A0000000000000346
+t1241116490
+s838
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/Task.m
+c0000000049F9EF7A00000000000001DF
+t1241116538
+s479
+i"Task.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/TaskListData.h
+c0000000049F9EFA70000000000000240
+t1241116583
+s576
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/TaskListData.m
+c0000000049F9EFC3000000000000025B
+t1241116611
+s603
+i"TaskListData.h"
+i"Patient.h"
+i"SiteUser.h"
+i"Task.h"
+
+N/Users/schweik/Documents/Projects/MComm/Classes/WebService.h
+c0000000049F9F7BE0000000000000596
+t1241118654
+s1430
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/Classes/WebService.m
+c000000004BA571F000000000000040FC
+t1269133808
+s16636
+i"WebService.h"
+i"CachedData.h"
+i"PatientListDelegate.h"
+i"Response.h"
+i"ResponseDelegate.h"
+i"SingleResultDelegate.h"
+i"SiteUser.h"
+i"SiteUserDelegate.h"
+i"Task.h"
+i"TaskListDelegate.h"
+
+N/Users/schweik/Documents/Projects/MComm/MComm_Prefix.pch
+c0000000049F36F7700000000000000B3
+t1240690551
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/MainWindow.xib
+c000000004A314B1C000000000000BC64
+t1244744476
+s48228
+
+N/Users/schweik/Documents/Projects/MComm/MyTasksView.xib
+c0000000049F36F770000000000001E6E
+t1240690551
+s7790
+
+N/Users/schweik/Documents/Projects/MComm/PatientDetailsView.xib
+c000000004A314B1C00000000000033DA
+t1244744476
+s13274
+
+N/Users/schweik/Documents/Projects/MComm/PatientListCell.xib
+c0000000049F36F770000000000003B82
+t1240690551
+s15234
+
+N/Users/schweik/Documents/Projects/MComm/PatientListTableCell.h
+c0000000049F935FC0000000000000349
+t1241069052
+s841
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/PatientListTableCell.m
+c0000000049F936A800000000000003B4
+t1241069224
+s948
+i"PatientListTableCell.h"
+
+N/Users/schweik/Documents/Projects/MComm/PatientListView.xib
+c0000000049F36F770000000000001ED0
+t1240690551
+s7888
+
+N/Users/schweik/Documents/Projects/MComm/ResponseDelegate.h
+c0000000049F9D3AE00000000000001F1
+t1241109422
+s497
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/ResponseDelegate.m
+c0000000049F9D42F00000000000007CB
+t1241109551
+s1995
+i"ResponseDelegate.h"
+i"Response.h"
+
+N/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.h
+c0000000049F9373B0000000000000287
+t1241069371
+s647
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m
+c0000000049F937EB000000000000032A
+t1241069547
+s810
+i"TaskDetailsCell.h"
+
+N/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.xib
+c0000000049F36F770000000000002F93
+t1240690551
+s12179
+
+N/Users/schweik/Documents/Projects/MComm/TaskDetailsView.xib
+c000000004A314B1C0000000000005C20
+t1244744476
+s23584
+
+N/Users/schweik/Documents/Projects/MComm/TaskDetailsViewController.h
+c000000004A188A17000000000000049B
+t1243122199
+s1179
+i<UIKit/UIKit.h>
+
+N/Users/schweik/Documents/Projects/MComm/TaskDetailsViewController.m
+c000000004A18942400000000000021F8
+t1243124772
+s8696
+i"TaskDetailsViewController.h"
+i"CachedData.h"
+i"Patient.h"
+i"Response.h"
+i"SiteUser.h"
+i"Task.h"
+i"WebService.h"
+
+N/Users/schweik/Documents/Projects/MComm/TaskListDelegate.h
+c0000000049F9D9E40000000000000284
+t1241111012
+s644
+i<Foundation/Foundation.h>
+
+N/Users/schweik/Documents/Projects/MComm/TaskListDelegate.m
+c0000000049F9DA3B000000000000106D
+t1241111099
+s4205
+i"TaskListDelegate.h"
+i"Patient.h"
+i"SiteUser.h"
+i"Task.h"
+i"TaskListData.h"
+
+N/Users/schweik/Documents/Projects/MComm/banner.gif
+c0000000049F36F770000000000000D51
+t1240690551
+s3409
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AddTaskViewController.o
+t1269133868
+s44784
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsData.o
+t1269133868
+s8720
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsTimer.o
+t1269133869
+s39152
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsViewController.o
+t1269133867
+s44980
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AsynchronousWebService.o
+t1269133869
+s22476
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/CachedData.o
+t1269133868
+s10588
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MComm.LinkFileList
+c000000004BA572280000000000000CF2
+t1269133864
+s3314
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MCommAppDelegate.o
+t1269133867
+s48568
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MyTasksViewController.o
+t1269133867
+s44856
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Patient.o
+t1269133867
+s15916
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientDetailsViewController.o
+t1269133868
+s51760
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListDelegate.o
+t1269133868
+s14908
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableCell.o
+t1269133868
+s21952
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableViewController.o
+t1269133868
+s39572
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Response.o
+t1269133867
+s12256
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/ResponseDelegate.o
+t1269133868
+s13624
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SingleResultDelegate.o
+t1269133867
+s11420
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUser.o
+t1269133867
+s12584
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUserDelegate.o
+t1269133867
+s14516
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Task.o
+t1269133867
+s12308
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsCell.o
+t1269133869
+s20036
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsViewController.o
+t1269133868
+s55616
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListData.o
+t1269133868
+s11212
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListDelegate.o
+t1269133868
+s18216
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/WebService.o
+t1269133868
+s32864
+
+N/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/main.o
+t1269133867
+s5940
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app
+t1269133869
+s782
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app.dSYM
+t1269133869
+s102
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/10-medical.png
+t1269133866
+s210
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/19-gear.png
+t1269133866
+s413
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/28-star.png
+t1269133866
+s375
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/59-flag.png
+t1269133866
+s247
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/61-brightness.png
+t1269133866
+s244
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/AddTaskView.nib
+t1269133866
+s3759
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/AlertsView.nib
+t1269133865
+s1388
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/Info.plist
+t1269133864
+s596
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm
+t1269133869
+s122324
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MainWindow.nib
+t1269133865
+s9602
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MyTasksView.nib
+t1269133865
+s1513
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/PatientDetailsView.nib
+t1269133865
+s2940
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/PatientListCell.nib
+t1269133866
+s3690
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/PatientListView.nib
+t1269133865
+s1511
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/PkgInfo
+t1269133864
+s8
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/TaskDetailsCell.nib
+t1269133866
+s3118
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/TaskDetailsView.nib
+t1269133866
+s5304
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/banner.gif
+t1269133866
+s3409
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/high.wav
+t1269133866
+s88252
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/logo.gif
+t1269133866
+s2317
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/low.wav
+t1269133866
+s24488
+
+N/Users/schweik/Documents/Projects/MComm/high.wav
+c0000000049F36F7700000000000158BC
+t1240690551
+s88252
+
+N/Users/schweik/Documents/Projects/MComm/logo.gif
+c0000000049F36F77000000000000090D
+t1240690551
+s2317
+
+N/Users/schweik/Documents/Projects/MComm/low.wav
+c0000000049F36F770000000000005FA8
+t1240690551
+s24488
+
+N/Users/schweik/Documents/Projects/MComm/main.m
+c0000000049F36F7700000000000003D5
+t1240690551
+s981
+i<UIKit/UIKit.h>
+
+N/var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch.gch
+t1269133867
+s12740048
+
+NInfo.plist
+c000000004A314B1C000000000000037D
+t1244744476
+s893
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies290826664#290826664#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AddTaskViewController.o /Users/schweik/Documents/Projects/MComm/AddTaskViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.614767
+e290826668.827052
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AddTaskViewController.o
+x/Users/schweik/Documents/Projects/MComm/AddTaskViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/schweik/Documents/Projects/MComm/AddTaskViewController.m290826668#290826668#0(0"0(0#0#63"/Users/schweik/Documents/Projects/MComm/AddTaskViewController.m4300885448#1899"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/AddTaskViewController.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AddTaskViewController.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsData.o /Users/schweik/Documents/Projects/MComm/Classes/AlertsData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.827153
+e290826668.888026
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsData.o
+x/Users/schweik/Documents/Projects/MComm/Classes/AlertsData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/schweik/Documents/Projects/MComm/Classes/AlertsData.m290826668#290826668#0(0"0(0#0#60"/Users/schweik/Documents/Projects/MComm/Classes/AlertsData.m4300885448#1885"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/AlertsData.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsData.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsTimer.o /Users/schweik/Documents/Projects/MComm/Classes/AlertsTimer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.984720
+e290826669.141200
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsTimer.o
+x/Users/schweik/Documents/Projects/MComm/Classes/AlertsTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/schweik/Documents/Projects/MComm/Classes/AlertsTimer.m290826668#290826669#0(0"0(0#0#61"/Users/schweik/Documents/Projects/MComm/Classes/AlertsTimer.m4300885448#1887"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/AlertsTimer.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsTimer.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsViewController.o /Users/schweik/Documents/Projects/MComm/Classes/AlertsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.469421
+e290826667.636606
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsViewController.o
+x/Users/schweik/Documents/Projects/MComm/Classes/AlertsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/schweik/Documents/Projects/MComm/Classes/AlertsViewController.m290826667#290826667#0(0"0(0#0#70"/Users/schweik/Documents/Projects/MComm/Classes/AlertsViewController.m4300885448#1905"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/AlertsViewController.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AlertsViewController.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AsynchronousWebService.o /Users/schweik/Documents/Projects/MComm/Classes/AsynchronousWebService.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.806609
+e290826669.008181
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AsynchronousWebService.o
+x/Users/schweik/Documents/Projects/MComm/Classes/AsynchronousWebService.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/schweik/Documents/Projects/MComm/Classes/AsynchronousWebService.m290826668#290826669#0(0"0(0#0#72"/Users/schweik/Documents/Projects/MComm/Classes/AsynchronousWebService.m4300885448#1909"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/AsynchronousWebService.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/AsynchronousWebService.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/CachedData.o /Users/schweik/Documents/Projects/MComm/Classes/CachedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.495430
+e290826668.578659
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/CachedData.o
+x/Users/schweik/Documents/Projects/MComm/Classes/CachedData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/schweik/Documents/Projects/MComm/Classes/CachedData.m290826668#290826668#0(0"0(0#0#60"/Users/schweik/Documents/Projects/MComm/Classes/CachedData.m4300885448#1885"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/CachedData.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/CachedData.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MCommAppDelegate.o /Users/schweik/Documents/Projects/MComm/Classes/MCommAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.282846
+e290826667.469315
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MCommAppDelegate.o
+x/Users/schweik/Documents/Projects/MComm/Classes/MCommAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/schweik/Documents/Projects/MComm/Classes/MCommAppDelegate.m290826667#290826667#0(0"0(0#0#66"/Users/schweik/Documents/Projects/MComm/Classes/MCommAppDelegate.m4300885448#1897"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/MCommAppDelegate.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MCommAppDelegate.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MyTasksViewController.o /Users/schweik/Documents/Projects/MComm/Classes/MyTasksViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.339732
+e290826667.509883
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MyTasksViewController.o
+x/Users/schweik/Documents/Projects/MComm/Classes/MyTasksViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/schweik/Documents/Projects/MComm/Classes/MyTasksViewController.m290826667#290826667#0(0"0(0#0#71"/Users/schweik/Documents/Projects/MComm/Classes/MyTasksViewController.m4300885448#1907"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/MyTasksViewController.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MyTasksViewController.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Patient.o /Users/schweik/Documents/Projects/MComm/Classes/Patient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.509997
+e290826667.615562
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Patient.o
+x/Users/schweik/Documents/Projects/MComm/Classes/Patient.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/schweik/Documents/Projects/MComm/Classes/Patient.m290826667#290826667#0(0"0(0#0#57"/Users/schweik/Documents/Projects/MComm/Classes/Patient.m4300885448#1879"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/Patient.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Patient.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientDetailsViewController.o /Users/schweik/Documents/Projects/MComm/Classes/PatientDetailsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.155334
+e290826668.390404
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientDetailsViewController.o
+x/Users/schweik/Documents/Projects/MComm/Classes/PatientDetailsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/schweik/Documents/Projects/MComm/Classes/PatientDetailsViewController.m290826668#290826668#0(0"0(0#0#78"/Users/schweik/Documents/Projects/MComm/Classes/PatientDetailsViewController.m4300885448#1921"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/PatientDetailsViewController.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientDetailsViewController.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListDelegate.o /Users/schweik/Documents/Projects/MComm/Classes/PatientListDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.993998
+e290826668.155134
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListDelegate.o
+x/Users/schweik/Documents/Projects/MComm/Classes/PatientListDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/schweik/Documents/Projects/MComm/Classes/PatientListDelegate.m290826667#290826668#0(0"0(0#0#69"/Users/schweik/Documents/Projects/MComm/Classes/PatientListDelegate.m4300885448#1903"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/PatientListDelegate.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListDelegate.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableCell.o /Users/schweik/Documents/Projects/MComm/PatientListTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.707932
+e290826668.806510
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableCell.o
+x/Users/schweik/Documents/Projects/MComm/PatientListTableCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/schweik/Documents/Projects/MComm/PatientListTableCell.m: In function '-[PatientListTableCell initWithFrame:reuseIdentifier:]':
+o/Users/schweik/Documents/Projects/MComm/PatientListTableCell.m:21: warning: 'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:178)
+lSLF07#2@70"Compile /Users/schweik/Documents/Projects/MComm/PatientListTableCell.m290826668#290826668#0(429"/Users/schweik/Documents/Projects/MComm/PatientListTableCell.m: In function '-[PatientListTableCell initWithFrame:reuseIdentifier:]':/Users/schweik/Documents/Projects/MComm/PatientListTableCell.m:21: warning: 'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:178)1(22@218"'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:178)290826668#134#295#0(6@62"/Users/schweik/Documents/Projects/MComm/PatientListTableCell.m262762024#21#0#21#0#33"'*' is deprecated (declared at *)0(0#0#62"/Users/schweik/Documents/Projects/MComm/PatientListTableCell.m4300885448#1897"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/PatientListTableCell.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableCell.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableViewController.o /Users/schweik/Documents/Projects/MComm/Classes/PatientListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.008463
+e290826668.163739
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableViewController.o
+x/Users/schweik/Documents/Projects/MComm/Classes/PatientListTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/schweik/Documents/Projects/MComm/Classes/PatientListTableViewController.m290826668#290826668#0(0"0(0#0#80"/Users/schweik/Documents/Projects/MComm/Classes/PatientListTableViewController.m4300885448#1925"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/PatientListTableViewController.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/PatientListTableViewController.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Response.o /Users/schweik/Documents/Projects/MComm/Classes/Response.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.710855
+e290826667.802762
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Response.o
+x/Users/schweik/Documents/Projects/MComm/Classes/Response.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/schweik/Documents/Projects/MComm/Classes/Response.m290826667#290826667#0(0"0(0#0#58"/Users/schweik/Documents/Projects/MComm/Classes/Response.m4300885448#1881"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/Response.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Response.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/ResponseDelegate.o /Users/schweik/Documents/Projects/MComm/ResponseDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.593477
+e290826668.707825
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/ResponseDelegate.o
+x/Users/schweik/Documents/Projects/MComm/ResponseDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/schweik/Documents/Projects/MComm/ResponseDelegate.m290826668#290826668#0(0"0(0#0#58"/Users/schweik/Documents/Projects/MComm/ResponseDelegate.m4300885448#1889"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/ResponseDelegate.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/ResponseDelegate.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SingleResultDelegate.o /Users/schweik/Documents/Projects/MComm/Classes/SingleResultDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.802871
+e290826667.888267
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SingleResultDelegate.o
+x/Users/schweik/Documents/Projects/MComm/Classes/SingleResultDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/schweik/Documents/Projects/MComm/Classes/SingleResultDelegate.m290826667#290826667#0(0"0(0#0#70"/Users/schweik/Documents/Projects/MComm/Classes/SingleResultDelegate.m4300885448#1905"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/SingleResultDelegate.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SingleResultDelegate.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUser.o /Users/schweik/Documents/Projects/MComm/Classes/SiteUser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.615664
+e290826667.710605
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUser.o
+x/Users/schweik/Documents/Projects/MComm/Classes/SiteUser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/schweik/Documents/Projects/MComm/Classes/SiteUser.m290826667#290826667#0(0"0(0#0#58"/Users/schweik/Documents/Projects/MComm/Classes/SiteUser.m4300885448#1881"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/SiteUser.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUser.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUserDelegate.o /Users/schweik/Documents/Projects/MComm/Classes/SiteUserDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.888368
+e290826667.993884
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUserDelegate.o
+x/Users/schweik/Documents/Projects/MComm/Classes/SiteUserDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/schweik/Documents/Projects/MComm/Classes/SiteUserDelegate.m290826667#290826667#0(0"0(0#0#66"/Users/schweik/Documents/Projects/MComm/Classes/SiteUserDelegate.m4300885448#1897"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/SiteUserDelegate.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/SiteUserDelegate.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Task.o /Users/schweik/Documents/Projects/MComm/Classes/Task.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.636708
+e290826667.742402
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Task.o
+x/Users/schweik/Documents/Projects/MComm/Classes/Task.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/schweik/Documents/Projects/MComm/Classes/Task.m290826667#290826667#0(0"0(0#0#54"/Users/schweik/Documents/Projects/MComm/Classes/Task.m4300885448#1873"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/Task.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/Task.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsCell.o /Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826669.008278
+e290826669.100437
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsCell.o
+x/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m: In function '-[TaskDetailsCell initWithFrame:reuseIdentifier:]':
+o/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m:19: warning: 'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:178)
+lSLF07#2@65"Compile /Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m290826669#290826669#0(414"/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m: In function '-[TaskDetailsCell initWithFrame:reuseIdentifier:]':/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m:19: warning: 'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:178)1(22@218"'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:178)290826669#124#290#0(6@57"/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m262762347#19#0#19#0#33"'*' is deprecated (declared at *)0(0#0#57"/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m4300885448#1887"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/TaskDetailsCell.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsCell.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsViewController.o /Users/schweik/Documents/Projects/MComm/TaskDetailsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.163843
+e290826668.495321
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsViewController.o
+x/Users/schweik/Documents/Projects/MComm/TaskDetailsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/schweik/Documents/Projects/MComm/TaskDetailsViewController.m290826668#290826668#0(0"0(0#0#67"/Users/schweik/Documents/Projects/MComm/TaskDetailsViewController.m4300885448#1907"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/TaskDetailsViewController.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskDetailsViewController.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListData.o /Users/schweik/Documents/Projects/MComm/Classes/TaskListData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.888324
+e290826668.984613
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListData.o
+x/Users/schweik/Documents/Projects/MComm/Classes/TaskListData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/schweik/Documents/Projects/MComm/Classes/TaskListData.m290826668#290826668#0(0"0(0#0#62"/Users/schweik/Documents/Projects/MComm/Classes/TaskListData.m4300885448#1889"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/TaskListData.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListData.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListDelegate.o /Users/schweik/Documents/Projects/MComm/TaskListDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826668.390501
+e290826668.614656
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListDelegate.o
+x/Users/schweik/Documents/Projects/MComm/TaskListDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/schweik/Documents/Projects/MComm/TaskListDelegate.m290826668#290826668#0(0"0(0#0#58"/Users/schweik/Documents/Projects/MComm/TaskListDelegate.m4300885448#1889"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/TaskListDelegate.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/TaskListDelegate.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/WebService.o /Users/schweik/Documents/Projects/MComm/Classes/WebService.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.742513
+e290826668.008352
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/WebService.o
+x/Users/schweik/Documents/Projects/MComm/Classes/WebService.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/schweik/Documents/Projects/MComm/Classes/WebService.m290826667#290826668#0(0"0(0#0#60"/Users/schweik/Documents/Projects/MComm/Classes/WebService.m4300885448#1885"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/Classes/WebService.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/WebService.o0#
+
+CCompileC build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/main.o /Users/schweik/Documents/Projects/MComm/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826667.281623
+e290826667.339619
+r1
+xCompileC
+xbuild/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/main.o
+x/Users/schweik/Documents/Projects/MComm/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/schweik/Documents/Projects/MComm/main.m290826667#290826667#0(0"0(0#0#46"/Users/schweik/Documents/Projects/MComm/main.m4300885448#1865"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -include /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch -c /Users/schweik/Documents/Projects/MComm/main.m -o /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/AddTaskView.xib
+s290826665.896925
+e290826666.361495
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/AddTaskView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@26"CompileXIB AddTaskView.xib290826665#290826666#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/schweik/Documents/Projects/MComm/AddTaskView.xib4300885448#487"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/AddTaskView.nib /Users/schweik/Documents/Projects/MComm/AddTaskView.xib0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/AlertsView.xib
+s290826665.262326
+e290826665.537933
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/AlertsView.xib
+lSLF07#2@25"CompileXIB AlertsView.xib290826665#290826665#0(0"0(0#0#54"/Users/schweik/Documents/Projects/MComm/AlertsView.xib4300885448#485"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/AlertsView.nib /Users/schweik/Documents/Projects/MComm/AlertsView.xib0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/MainWindow.xib
+s290826664.973050
+e290826665.557767
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib290826664#290826665#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#54"/Users/schweik/Documents/Projects/MComm/MainWindow.xib4300885448#485"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MainWindow.nib /Users/schweik/Documents/Projects/MComm/MainWindow.xib0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/MyTasksView.xib
+s290826664.973742
+e290826665.262235
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/MyTasksView.xib
+lSLF07#2@26"CompileXIB MyTasksView.xib290826664#290826665#0(0"0(0#0#55"/Users/schweik/Documents/Projects/MComm/MyTasksView.xib4300885448#487"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MyTasksView.nib /Users/schweik/Documents/Projects/MComm/MyTasksView.xib0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/PatientDetailsView.xib
+s290826665.557860
+e290826665.896832
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/PatientDetailsView.xib
+lSLF07#2@33"CompileXIB PatientDetailsView.xib290826665#290826665#0(0"0(0#0#62"/Users/schweik/Documents/Projects/MComm/PatientDetailsView.xib4300885448#501"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/PatientDetailsView.nib /Users/schweik/Documents/Projects/MComm/PatientDetailsView.xib0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/PatientListCell.xib
+s290826666.273931
+e290826666.626504
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/PatientListCell.xib
+lSLF07#2@30"CompileXIB PatientListCell.xib290826666#290826666#0(0"0(0#0#59"/Users/schweik/Documents/Projects/MComm/PatientListCell.xib4300885448#495"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/PatientListCell.nib /Users/schweik/Documents/Projects/MComm/PatientListCell.xib0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/PatientListView.xib
+s290826665.538023
+e290826665.810415
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/PatientListView.xib
+lSLF07#2@30"CompileXIB PatientListView.xib290826665#290826665#0(0"0(0#0#59"/Users/schweik/Documents/Projects/MComm/PatientListView.xib4300885448#495"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/PatientListView.nib /Users/schweik/Documents/Projects/MComm/PatientListView.xib0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/TaskDetailsCell.xib
+s290826666.371473
+e290826666.695834
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.xib
+lSLF07#2@30"CompileXIB TaskDetailsCell.xib290826666#290826666#0(0"0(0#0#59"/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.xib4300885448#495"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/TaskDetailsCell.nib /Users/schweik/Documents/Projects/MComm/TaskDetailsCell.xib0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/TaskDetailsView.xib
+s290826665.810515
+e290826666.273840
+r1
+xCompileXIB
+x/Users/schweik/Documents/Projects/MComm/TaskDetailsView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@30"CompileXIB TaskDetailsView.xib290826665#290826666#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#59"/Users/schweik/Documents/Projects/MComm/TaskDetailsView.xib4300885448#495"    cd /Users/schweik/Documents/Projects/MComm    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/TaskDetailsView.nib /Users/schweik/Documents/Projects/MComm/TaskDetailsView.xib0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/10-medical.png 10-medical.png
+s290826666.632761
+e290826666.639929
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/10-medical.png
+x10-medical.png
+lSLF07#2@19"Copy 10-medical.png290826666#290826666#0(0"0(0#0#54"/Users/schweik/Documents/Projects/MComm/10-medical.png4300885448#482"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/10-medical.png /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/19-gear.png 19-gear.png
+s290826666.627659
+e290826666.641913
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/19-gear.png
+x19-gear.png
+lSLF07#2@16"Copy 19-gear.png290826666#290826666#0(0"0(0#0#51"/Users/schweik/Documents/Projects/MComm/19-gear.png4300885448#479"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/19-gear.png /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/28-star.png 28-star.png
+s290826666.634849
+e290826666.644708
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/28-star.png
+x28-star.png
+lSLF07#2@16"Copy 28-star.png290826666#290826666#0(0"0(0#0#51"/Users/schweik/Documents/Projects/MComm/28-star.png4300885448#479"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/28-star.png /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/59-flag.png 59-flag.png
+s290826666.633803
+e290826666.640035
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/59-flag.png
+x59-flag.png
+lSLF07#2@16"Copy 59-flag.png290826666#290826666#0(0"0(0#0#51"/Users/schweik/Documents/Projects/MComm/59-flag.png4300885448#479"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/59-flag.png /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/61-brightness.png 61-brightness.png
+s290826666.626681
+e290826666.639801
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/61-brightness.png
+x61-brightness.png
+lSLF07#2@22"Copy 61-brightness.png290826666#290826666#0(0"0(0#0#57"/Users/schweik/Documents/Projects/MComm/61-brightness.png4300885448#485"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/61-brightness.png /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/banner.gif banner.gif
+s290826666.361592
+e290826666.373841
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/banner.gif
+xbanner.gif
+lSLF07#2@15"Copy banner.gif290826666#290826666#0(0"0(0#0#50"/Users/schweik/Documents/Projects/MComm/banner.gif4300885448#478"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/banner.gif /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/high.wav high.wav
+s290826666.368029
+e290826666.375586
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/high.wav
+xhigh.wav
+lSLF07#2@13"Copy high.wav290826666#290826666#0(0"0(0#0#48"/Users/schweik/Documents/Projects/MComm/high.wav4300885448#476"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/high.wav /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/logo.gif logo.gif
+s290826666.367094
+e290826666.373965
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/logo.gif
+xlogo.gif
+lSLF07#2@13"Copy logo.gif290826666#290826666#0(0"0(0#0#48"/Users/schweik/Documents/Projects/MComm/logo.gif4300885448#476"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/logo.gif /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CCpResource build/Release-iphonesimulator/MComm.app/low.wav low.wav
+s290826666.369722
+e290826666.379438
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MComm.app/low.wav
+xlow.wav
+lSLF07#2@12"Copy low.wav290826666#290826666#0(0"0(0#0#47"/Users/schweik/Documents/Projects/MComm/low.wav4300885448#475"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/schweik/Documents/Projects/MComm/low.wav /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+
+CGenerateDSYMFile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app.dSYM /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm
+s290826669.182724
+e290826669.217363
+r1
+xGenerateDSYMFile
+x/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app.dSYM
+x/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm
+lSLF07#2@107"GenerateDSYMFile build/Release-iphonesimulator/MComm.app.dSYM build/Release-iphonesimulator/MComm.app/MComm290826669#290826669#0(0"0(0#0#85"/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm4300885448#384"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm -o /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app.dSYM0#
+
+CLd /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm normal i386
+s290826669.141298
+e290826669.182614
+r1
+xLd
+x/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm
+xnormal
+xi386
+lSLF07#2@90"Link /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm290826669#290826669#0(0"0(0#0#0"4300885448#891"    cd /Users/schweik/Documents/Projects/MComm    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -filelist /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/Objects-normal/i386/MComm.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/MComm0#
+
+CProcessInfoPlistFile /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/Info.plist Info.plist
+s290826664.950879
+e290826664.972950
+r1
+xProcessInfoPlistFile
+x/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist290826664#290826664#0(0"0(0#0#50"/Users/schweik/Documents/Projects/MComm/Info.plist4300885448#474"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app/Info.plist0#
+
+CProcessPCH /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch.gch MComm_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s290826666.695963
+e290826667.281331
+r1
+xProcessPCH
+x/var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch.gch
+xMComm_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile MComm_Prefix.pch290826666#290826667#0(0"0(0#0#56"/Users/schweik/Documents/Projects/MComm/MComm_Prefix.pch4300885448#1756"    cd /Users/schweik/Documents/Projects/MComm    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-generated-files.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-own-target-headers.hmap -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-all-target-headers.hmap -iquote /Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/MComm-project-headers.hmap -F/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator -I/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/include -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources/i386 -I/Users/schweik/Documents/Projects/MComm/build/MComm.build/Release-iphonesimulator/MComm.build/DerivedSources -c /Users/schweik/Documents/Projects/MComm/MComm_Prefix.pch -o /var/folders/L5/L5WUzmd9FrSuRu3XQiN83k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MComm_Prefix-fvyfsnjmwaoiklfjnubvjignpfnn/MComm_Prefix.pch.gch0#
+
+CTouch /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app
+s290826669.217458
+e290826669.221075
+r1
+xTouch
+x/Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app
+lSLF07#2@85"Touch /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app290826669#290826669#0(0"0(0#0#0"4300885448#280"    cd /Users/schweik/Documents/Projects/MComm    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/schweik/Documents/Projects/MComm/build/Release-iphonesimulator/MComm.app0#
+

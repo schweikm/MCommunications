@@ -1,0 +1,248 @@
+TMComm
+v7
+r1
+cCheck dependencies
+
+N/Users/schweik/Documents/Projects/MComm/10-medical.png
+c000000004A314B1C00000000000000D2
+t1244744476
+s210
+
+N/Users/schweik/Documents/Projects/MComm/19-gear.png
+c000000004A314B1C000000000000019D
+t1244744476
+s413
+
+N/Users/schweik/Documents/Projects/MComm/28-star.png
+c000000004A314B1C0000000000000177
+t1244744476
+s375
+
+N/Users/schweik/Documents/Projects/MComm/59-flag.png
+c000000004A314B1C00000000000000F7
+t1244744476
+s247
+
+N/Users/schweik/Documents/Projects/MComm/61-brightness.png
+c000000004A314B1C00000000000000F4
+t1244744476
+s244
+
+N/Users/schweik/Documents/Projects/MComm/AddTaskView.xib
+c0000000049FA01150000000000003F52
+t1241121045
+s16210
+
+N/Users/schweik/Documents/Projects/MComm/AlertsView.xib
+c0000000049F36F770000000000001A84
+t1240690551
+s6788
+
+N/Users/schweik/Documents/Projects/MComm/MainWindow.xib
+c000000004A314B1C000000000000BC64
+t1244744476
+s48228
+
+N/Users/schweik/Documents/Projects/MComm/MyTasksView.xib
+c0000000049F36F770000000000001E6E
+t1240690551
+s7790
+
+N/Users/schweik/Documents/Projects/MComm/PatientDetailsView.xib
+c000000004A314B1C00000000000033DA
+t1244744476
+s13274
+
+N/Users/schweik/Documents/Projects/MComm/PatientListCell.xib
+c0000000049F36F770000000000003B82
+t1240690551
+s15234
+
+N/Users/schweik/Documents/Projects/MComm/PatientListView.xib
+c0000000049F36F770000000000001ED0
+t1240690551
+s7888
+
+N/Users/schweik/Documents/Projects/MComm/TaskDetailsCell.xib
+c0000000049F36F770000000000002F93
+t1240690551
+s12179
+
+N/Users/schweik/Documents/Projects/MComm/TaskDetailsView.xib
+c000000004A314B1C0000000000005C20
+t1244744476
+s23584
+
+N/Users/schweik/Documents/Projects/MComm/banner.gif
+c0000000049F36F770000000000000D51
+t1240690551
+s3409
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app
+t1246500166
+s918
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/10-medical.png
+t1246500163
+s219
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/19-gear.png
+t1246500163
+s541
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/28-star.png
+t1246500163
+s483
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/59-flag.png
+t1246500163
+s250
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/61-brightness.png
+t1246500163
+s297
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/AddTaskView.nib
+t1246500163
+s3759
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/AlertsView.nib
+t1246500161
+s1388
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/Info.plist
+t1246500161
+s640
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/MainWindow.nib
+t1246500161
+s9602
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/MyTasksView.nib
+t1246500161
+s1513
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/PatientDetailsView.nib
+t1246500162
+s2940
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/PatientListCell.nib
+t1246500163
+s3690
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/PatientListView.nib
+t1246500162
+s1511
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/PkgInfo
+t1246500161
+s8
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/TaskDetailsCell.nib
+t1246500163
+s3118
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/TaskDetailsView.nib
+t1246500162
+s5304
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/banner.gif
+t1246500163
+s3409
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/high.wav
+t1246500163
+s88252
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/logo.gif
+t1246500163
+s2317
+
+N/Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/low.wav
+t1246500163
+s24488
+
+N/Users/schweik/Documents/Projects/MComm/high.wav
+c0000000049F36F7700000000000158BC
+t1240690551
+s88252
+
+N/Users/schweik/Documents/Projects/MComm/logo.gif
+c0000000049F36F77000000000000090D
+t1240690551
+s2317
+
+N/Users/schweik/Documents/Projects/MComm/low.wav
+c0000000049F36F770000000000005FA8
+t1240690551
+s24488
+
+NInfo.plist
+c000000004A314B1C000000000000037D
+t1244744476
+s893
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297303376#297303376#0(68"[BEROR]error: There is no SDK with the name or path 'iphoneos2.2.1'1(4@60"error: There is no SDK with the name or path 'iphoneos2.2.1'297303376#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/AddTaskView.xib
+r0
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/AlertsView.xib
+r0
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/MainWindow.xib
+r0
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/MyTasksView.xib
+r0
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/PatientDetailsView.xib
+r0
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/PatientListCell.xib
+r0
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/PatientListView.xib
+r0
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/TaskDetailsCell.xib
+r0
+
+CCompileXIB /Users/schweik/Documents/Projects/MComm/TaskDetailsView.xib
+r0
+
+CCopyPNGFile /Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/10-medical.png 10-medical.png
+r0
+
+CCopyPNGFile /Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/19-gear.png 19-gear.png
+r0
+
+CCopyPNGFile /Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/28-star.png 28-star.png
+r0
+
+CCopyPNGFile /Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/59-flag.png 59-flag.png
+r0
+
+CCopyPNGFile /Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/61-brightness.png 61-brightness.png
+r0
+
+CCpResource build/Release-iphoneos/MComm.app/banner.gif banner.gif
+r0
+
+CCpResource build/Release-iphoneos/MComm.app/high.wav high.wav
+r0
+
+CCpResource build/Release-iphoneos/MComm.app/logo.gif logo.gif
+r0
+
+CCpResource build/Release-iphoneos/MComm.app/low.wav low.wav
+r0
+
+CProcessInfoPlistFile /Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app/Info.plist Info.plist
+r0
+
+CTouch /Users/schweik/Documents/Projects/MComm/build/Release-iphoneos/MComm.app
+r0
+
