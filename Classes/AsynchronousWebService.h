@@ -13,7 +13,7 @@
 /*
  * This web service is used to make asynchronous requests to the web service.
  */
-@interface AsynchronousWebService : NSObject {
+@interface AsynchronousWebService : NSObject<NSXMLParserDelegate> {
 @private 
 	NSXMLParser* xmlParser;
 	NSMutableData* webData;

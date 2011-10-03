@@ -105,7 +105,7 @@
 	#ifdef ENABLE_LOGGING
 	
 	NSLog(@"\n\n");
-	NSLog(@"@", soapXML);
+	NSLog(@"%@", soapXML);
 	NSLog(@"\n\n");
 	
 	#endif
@@ -170,7 +170,7 @@
 
 	NSLog(@"DONE. Received Bytes: %d", [webData length]);
 	NSLog(@"\n\n");
-	NSLog(@"@", theXML);
+	NSLog(@"%@", theXML);
 	NSLog(@"\n\n");
 	
 	#endif
