@@ -113,7 +113,7 @@
     
     UITableViewCell *cell = [AtableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if(!cell) {
-        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
 	TaskListData* data = [taskList objectAtIndex:indexPath.row];
